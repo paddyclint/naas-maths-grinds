@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" font-family="'Poppins','Arial Black',sans-serif">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Caveat:wght@600;700&amp;display=swap');
+    .naas   { font-family:'Poppins','Arial Black',sans-serif; font-weight:800; }
+    .sub    { font-family:'Poppins',Arial,sans-serif; font-weight:600; }
+    .head   { font-family:'Poppins','Arial Black',sans-serif; font-weight:800; }
+    .body   { font-family:'Inter',Arial,sans-serif; }
+    .hand   { font-family:'Caveat',cursive; font-weight:700; }
+  </style>
+
+  <!-- background -->
+  <rect x="0" y="0" width="1000" height="1414" fill="#FBF8F1"/>
+  <circle cx="930" cy="90" r="150" fill="#2E7D32" opacity="0.07"/>
+  <circle cx="40" cy="1360" r="170" fill="#2E7D32" opacity="0.07"/>
+
+  <!-- faint doodles -->
+  <text class="hand" x="90" y="240" font-size="30" fill="#2E7D32" opacity="0.18" transform="rotate(-10 90 240)">x&#178; + y&#178; = r&#178;</text>
+  <text class="hand" x="800" y="262" font-size="30" fill="#16294A" opacity="0.15" transform="rotate(8 800 262)">a&#178; + b&#178; = c&#178;</text>
+  <text class="hand" x="90" y="345" font-size="30" fill="#2E7D32" opacity="0.18" transform="rotate(6 90 345)">y = mx + c</text>
+
+  <!-- logo lockup (wordmark only — no icon) -->
+  <text x="500" y="103" text-anchor="middle" class="naas" font-size="58" fill="#16294A">NAAS</text>
+  <text x="500" y="135" text-anchor="middle" class="sub" font-size="17" letter-spacing="8" fill="#2E7D32">MATHS GRINDS</text>
+
+  <!-- enrolling badge -->
+  <g transform="rotate(7 870 60)">
+    <rect x="788" y="22" width="164" height="76" rx="14" fill="#2E7D32"/>
+    <text x="870" y="54" text-anchor="middle" class="sub" font-size="17" fill="#FFFFFF">ENROLLING NOW</text>
+    <text x="870" y="80" text-anchor="middle" class="sub" font-size="17" fill="#FFFFFF">2026 / 2027</text>
+  </g>
+
+  <!-- eyebrow -->
+  <text x="500" y="180" text-anchor="middle" class="hand" font-size="28" fill="#2E7D32" transform="rotate(-2 500 180)">Leaving Cert Maths &#183; Naas, Co. Kildare</text>
+
+  <!-- headline -->
+  <text x="500" y="245" text-anchor="middle" class="head" font-size="46" fill="#16294A">MATHS GRINDS THAT</text>
+  <text x="500" y="300" text-anchor="middle" class="head" font-size="46"><tspan fill="#2E7D32">ADD UP</tspan><tspan fill="#16294A"> TO REAL RESULTS</tspan></text>
+
+  <!-- subtext -->
+  <text x="500" y="338" text-anchor="middle" class="body" font-size="20" fill="#5B6577">Small-group Leaving Cert Maths classes in Naas.</text>
+  <text x="500" y="366" text-anchor="middle" class="body" font-size="20" fill="#5B6577">Three levels, one goal &#8212; your best possible grade.</text>
+
+  <!-- divider -->
+  <line x1="60" y1="386" x2="940" y2="386" stroke="#E7E0D0" stroke-width="2" stroke-dasharray="2 8"/>
+  <text x="500" y="410" text-anchor="middle" class="hand" font-size="26" fill="#2E7D32">Choose your level</text>
+
+  <!-- ===== Card 1: H1/H2 ===== -->
+  <rect x="60" y="428" width="8" height="160" fill="#2E7D32"/>
+  <rect x="68" y="428" width="872" height="160" rx="14" fill="#FFFFFF" stroke="#E7E0D0"/>
+  <rect x="100" y="445" width="124" height="24" rx="12" fill="#2E7D32"/>
+  <text x="162" y="462" text-anchor="middle" class="sub" font-size="12" fill="#FFFFFF" letter-spacing="1">TOP ACHIEVERS</text>
+  <text x="100" y="508" class="head" font-size="26" fill="#16294A">Higher Level &#8212; H1 / H2</text>
+  <text x="100" y="535" class="body" font-size="16" fill="#5B6577">For students already strong at Maths, consistently doing well.</text>
+  <text x="100" y="563" class="sub" font-size="15" fill="#2E7D32">From &#8364;[XX] per class</text>
+
+  <!-- ===== Card 2: Higher Level (all others) ===== -->
+  <rect x="60" y="603" width="8" height="160" fill="#16294A"/>
+  <rect x="68" y="603" width="872" height="160" rx="14" fill="#FFFFFF" stroke="#E7E0D0"/>
+  <rect x="100" y="620" width="140" height="24" rx="12" fill="#16294A"/>
+  <text x="170" y="637" text-anchor="middle" class="sub" font-size="12" fill="#FFFFFF" letter-spacing="1">STEADY PROGRESS</text>
+  <text x="100" y="683" class="head" font-size="24" fill="#16294A">Higher Level &#8212; All Other Students</text>
+  <text x="100" y="710" class="body" font-size="16" fill="#5B6577">Build strong foundations, fill gaps, and climb the ladder.</text>
+  <text x="100" y="738" class="sub" font-size="15" fill="#2E7D32">From &#8364;[XX] per class</text>
+
+  <!-- ===== Card 3: Ordinary Level ===== -->
+  <rect x="60" y="778" width="8" height="160" fill="#1B5E20"/>
+  <rect x="68" y="778" width="872" height="160" rx="14" fill="#FFFFFF" stroke="#E7E0D0"/>
+  <rect x="100" y="795" width="176" height="24" rx="12" fill="#1B5E20"/>
+  <text x="188" y="812" text-anchor="middle" class="sub" font-size="12" fill="#FFFFFF" letter-spacing="1">CONFIDENCE BUILDING</text>
+  <text x="100" y="858" class="head" font-size="26" fill="#16294A">Ordinary Level</text>
+  <text x="100" y="885" class="body" font-size="16" fill="#5B6577">Friendly, no-pressure classes that secure the marks that matter.</text>
+  <text x="100" y="913" class="sub" font-size="15" fill="#2E7D32">From &#8364;[XX] per class</text>
+
+  <!-- checklist row -->
+  <g class="sub" font-size="15" fill="#16294A">
+    <circle cx="78" cy="965" r="9" fill="#2E7D32"/><text x="78" y="969" text-anchor="middle" fill="#fff" font-size="11">&#10003;</text>
+    <text x="98" y="970">Small classes</text>
+
+    <circle cx="318" cy="965" r="9" fill="#2E7D32"/><text x="318" y="969" text-anchor="middle" fill="#fff" font-size="11">&#10003;</text>
+    <text x="338" y="970">Qualified teacher</text>
+
+    <circle cx="578" cy="965" r="9" fill="#2E7D32"/><text x="578" y="969" text-anchor="middle" fill="#fff" font-size="11">&#10003;</text>
+    <text x="598" y="970">Exam-focused</text>
+
+    <circle cx="788" cy="965" r="9" fill="#2E7D32"/><text x="788" y="969" text-anchor="middle" fill="#fff" font-size="11">&#10003;</text>
+    <text x="808" y="970">Weekly classes</text>
+  </g>
+
+  <!-- ===== Bottom CTA band ===== -->
+  <rect x="0" y="1020" width="1000" height="394" fill="#16294A"/>
+  <text x="500" y="1088" text-anchor="middle" class="head" font-size="34" fill="#FFFFFF">Ready to boost your grade?</text>
+  <text x="500" y="1120" text-anchor="middle" class="body" font-size="16" fill="#C7D0E0">Limited places each year &#8212; get in touch today.</text>
+
+  <g class="body" font-size="18" fill="#FFFFFF">
+    <text x="90" y="1180">&#128222;&#160;&#160;[Add phone number]</text>
+    <text x="90" y="1220">&#9993;&#160;&#160;[Add email address]</text>
+    <text x="90" y="1260">&#128205;&#160;&#160;[Add venue / address, Naas]</text>
+  </g>
+
+  <text x="820" y="1136" text-anchor="middle" class="sub" font-size="16" fill="#FFFFFF">Scan to enquire</text>
+  <rect x="745" y="1150" width="150" height="150" rx="10" fill="#FFFFFF"/>
+  <!-- placeholder QR-style mark, not a functional code -->
+  <g fill="#16294A">
+    <rect x="760" y="1165" width="28" height="28"/><rect x="768" y="1173" width="12" height="12" fill="#FFFFFF"/>
+    <rect x="852" y="1165" width="28" height="28"/><rect x="860" y="1173" width="12" height="12" fill="#FFFFFF"/>
+    <rect x="760" y="1257" width="28" height="28"/><rect x="768" y="1265" width="12" height="12" fill="#FFFFFF"/>
+    <rect x="805" y="1200" width="14" height="14"/><rect x="825" y="1200" width="14" height="14"/>
+    <rect x="805" y="1220" width="14" height="14"/><rect x="845" y="1220" width="14" height="14"/>
+    <rect x="825" y="1240" width="14" height="14"/><rect x="805" y="1260" width="14" height="14"/>
+    <rect x="845" y="1260" width="14" height="14"/><rect x="865" y="1200" width="14" height="14"/>
+  </g>
+  <text x="820" y="1325" text-anchor="middle" class="body" font-size="11" fill="#C7D0E0">[Add real QR code]</text>
+
+  <text x="500" y="1390" text-anchor="middle" class="body" font-size="13" fill="#C7D0E0">[ Add website or Instagram handle ]</text>
+</svg>

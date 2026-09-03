@@ -1,12 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 120" role="img" aria-label="Naas Maths Grinds">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 74" role="img" aria-label="Naas Maths Grinds">
   <style>
-    .naas { font-family: 'Poppins', 'Arial Black', sans-serif; font-weight: 800; letter-spacing: 1px; }
-    .sub  { font-family: 'Poppins', Arial, sans-serif; font-weight: 600; letter-spacing: 7px; }
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&amp;display=swap');
   </style>
-  <!-- little graph/root mark -->
-  <g stroke="#2E7D32" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M14 86 L30 86 L42 28 L70 28"/>
-  </g>
-  <text x="58" y="62" class="naas" font-size="54" fill="#16294A">NAAS</text>
-  <text x="60" y="96" class="sub" font-size="15" fill="#B8902F">MATHS GRINDS</text>
+  <text
+    x="130" y="52"
+    text-anchor="middle"
+    font-family="'Poppins','Arial Black',sans-serif"
+    font-weight="800"
+    font-size="52"
+    letter-spacing="-1"
+    fill="#16294A">NAAS</text>
+  <text
+    x="130" y="70"
+    text-anchor="middle"
+    font-family="'Poppins',Arial,sans-serif"
+    font-weight="600"
+    font-size="13"
+    letter-spacing="7"
+    fill="#2E7D32">MATHS GRINDS</text>
 </svg>
